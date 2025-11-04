@@ -12,7 +12,20 @@
           "package_name": "com.example.cashkotha"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "340907978883-rscq4f413icaie6hll6qfi4oc9temb5m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cashkotha",
+            "certificate_hash": "acb13d7853fb3aac62345ae489f6f69130e99737"
+          }
+        },
+        {
+          "client_id": "340907978883-tqd5q2acjvkt8eu1fv45sd2err3af2go.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyCmqghIXWWknmGuPnpjgBJpqg0iK06flz4"
@@ -20,7 +33,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "340907978883-tqd5q2acjvkt8eu1fv45sd2err3af2go.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

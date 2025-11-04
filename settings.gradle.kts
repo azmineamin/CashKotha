@@ -1,5 +1,6 @@
 pluginManagement {
     repositories {
+        google()
         google {
             content {
                 includeGroupByRegex("com\\.android.*")
@@ -19,6 +20,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "CashKotha"
+rootProject.name = "Cashkotha" // Or your project name
 include(":app")
- 
