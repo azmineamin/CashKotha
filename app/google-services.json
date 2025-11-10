@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "340907978883",
+    "project_id": "cashkotha-8c6cc",
+    "storage_bucket": "cashkotha-8c6cc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:340907978883:android:2b8e6eafea0ccd75fc2bb6",
+        "android_client_info": {
+          "package_name": "com.example.cashkotha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "340907978883-tqd5q2acjvkt8eu1fv45sd2err3af2go.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmqghIXWWknmGuPnpjgBJpqg0iK06flz4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "340907978883-tqd5q2acjvkt8eu1fv45sd2err3af2go.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
