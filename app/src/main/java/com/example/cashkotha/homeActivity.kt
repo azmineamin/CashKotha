@@ -9,7 +9,7 @@ import com.google.firebase.auth.FirebaseAuth
 
 class HomeActivity : AppCompatActivity() {
 
-    private lateinit var auth : FirebaseAuth
+    private lateinit var auth: FirebaseAuth
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -24,7 +24,14 @@ class HomeActivity : AppCompatActivity() {
 
         findViewById<Button>(R.id.signOutBtn).setOnClickListener {
             auth.signOut()
-            startActivity(Intent(this , MainActivity::class.java))
+            startActivity(Intent(this, MainActivity::class.java))
+            finish()
+        }
+
+        // Calculator Button
+        findViewById<Button>(R.id.calculatorBtn).setOnClickListener {
+            val intent = Intent(this, CalculatorActivity::class.java)
+            startActivity(intent)
         }
     }
 }
